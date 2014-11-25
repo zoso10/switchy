@@ -1,31 +1,36 @@
 # Switchy
 
-TODO: Write a gem description
+Switchy is a simple gem for switching git remote urls between https and ssh
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Clone this repository:
 
-```ruby
-gem 'switchy'
+```bash
+git clone https://github.com/zoso10/switchy.git
 ```
 
-And then execute:
+And then install with rake:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install switchy
+```bash
+$ cd switchy
+$ rake install
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Using Switchy couldn't be simpler:
+
+```bash
+switchy
+```
+
+If your remotes are HTTPS they will swap to SSH, and vice versa. More functionality to come!
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/switchy/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+1. Fork it ( https://github.com/zoso10/switchy/fork )
+2. Create your feature branch (`git checkout -b my-awesome-feature`)
+3. Commit your changes (`git commit -am 'Add awesome new feature'`)
+4. Push to the branch (`git push origin my-awesome-feature`)
 5. Create a new Pull Request
