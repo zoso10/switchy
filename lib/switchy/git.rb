@@ -11,7 +11,7 @@ module Switchy
             `git remote set-url #{remote_name} https://github.com/#{user}/#{repo}.git`
           else
             # Switch to SSH
-            user, repo = remote.split(',')[1].split('/')[1..-1]
+            user, repo = remote.split('.')[1].split('/')[1..-1]
             `git remote set-url #{remote_name} git@github.com:#{user}/#{repo}.git`
           end
         end
