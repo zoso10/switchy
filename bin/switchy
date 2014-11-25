@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'switchy'
+
+Switchy::CLI.start

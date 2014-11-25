@@ -1,6 +1,10 @@
-require "switchy/version"
+require 'switchy/cli'
+require 'switchy/git'
+require 'switchy/exceptions'
+require 'switchy/version'
 
 module Switchy
+=begin
   class << self
     def switch
       unless git_repository?
@@ -36,4 +40,5 @@ module Switchy
       end
     end
   end
+=end
 end
